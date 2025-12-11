@@ -20,8 +20,6 @@ dist/
 data/
 clean/
 Noisy/
-clean_dataset/
-noisy_dataset/
 *.zip
 
 # Logs and temporary outputs
