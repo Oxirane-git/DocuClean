@@ -1,0 +1,34 @@
+# Virtualenv and Python cache
+.venv/
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Data and large artifacts (keep datasets out of git)
+data/
+clean/
+Noisy/
+clean_dataset/
+noisy_dataset/
+*.zip
+
+# Logs and temporary outputs
+*.log
+outputs/
+runs/
+
+# Streamlit state
+.streamlit/
+
