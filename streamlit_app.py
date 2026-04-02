@@ -196,7 +196,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-MODEL_PATH = Path("models/final_denoiser_suffix.pth")
+MODEL_PATH = Path("models/best_denoising_model.pth")
 
 
 class ResidualBlock(nn.Module):
